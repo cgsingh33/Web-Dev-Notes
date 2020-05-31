@@ -1,0 +1,22 @@
+SOME IMP GIT COMMANDS:-
+
+ 1. to initialize git 
+-go to the directory, open terminal, type  ( git init ) 
+
+- ( la-la ) to listing hidden files
+- ( git status ) to see the current status of the files , it tracks the files basically
+
+2. to configure the project
+- ( git config --global user.name "chandu03" )
+- ( git config --global user.email "chandragupta.singh4@gmail.com" )
+- ( git config --list) this will list the configuration
+
+3. to add the project
+- ( git add * ) this will change the status to green
+- ( git commit -m"first commit" ) this will commit the changes
+- again check the status
+
+4. pushing it to github
+- ( git remote add origin https://github.com/chandu03/practice.git )
+- ( git push -u origin master )
+- type user name and password ,but after 2FA use token as password 

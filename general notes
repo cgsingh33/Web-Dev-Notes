@@ -1,0 +1,30 @@
+NOTES:
+
+1. what is the use of browser sync
+- browser sync allow us to sync directly to the browser, like if we update anything in the code then it will be directly uodated in the browser without loading the browser. 
+- what it does that it constantly have a server for us
+
+2. installing browser sync
+- before it make sure node and npm is installed
+- ( sudo npm install -g browser-sync )
+
+3. to start browser sync
+- open terminal and go to the required directory in which you store the files
+- type ( browser-sync start --server --directory --files "*" ) in the command line
+- ( browser-sync start --server --directory --files "**/*") //any folder and files inside the directory
+
+4. to close browser sync
+- press ctrl+c in the terminal
+
+5. W3c and WHATWG  only organization that dictates what and how browsers should implement HTML5
+
+6. 1 inch = 96 pixels
+
+
+
+
+
+
+
+
+
