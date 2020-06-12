@@ -20,3 +20,18 @@ SOME IMP GIT COMMANDS:-
 - ( git remote add origin https://github.com/chandu03/practice.git )
 - ( git push -u origin master )
 - type user name and password ,but after 2FA use token as password 
+
+5. to check the version
+- ( git --version )
+
+6. to revert back to specific commit
+- ( git log --oneline)
+- ( git checkout 900cfcf index.html ) //this will revert index.html file to "900cfcf" commit 
+
+7. to restore the changes
+- ( git reset HEAD index.html )
+- ( git checkout -- index.html )
+
+8. to ignore files like node-modules from being checked in github
+- create a file named .gitignore
+- write   node_modules   inside it

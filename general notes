@@ -21,9 +21,26 @@ NOTES:
 6. 1 inch = 96 pixels
 
 
+7. HOW TO UPDATE NODE AND NPM:-
 
+Step 1: sudo npm cache clean -f
+Step 2: sudo npm install -g n
+Step 3: sudo n latest
 
+8. Error: ENOSPC: System limit for number of file watchers reached, watch
 
+Modify the number of system monitoring files
+Ubuntu
+Step 1: sudo gedit /etc/sysctl.conf
+
+Add a line at the bottom
+Step 2: fs.inotify.max_user_watches=524288
+
+Then save and exit!
+
+Step 3: sudo sysctl -p
+
+to check it
 
 
 
