@@ -12,7 +12,7 @@ SOME IMP GIT COMMANDS:-
 - ( git config --list) this will list the configuration
 
 3. to add the project
-- ( git add * ) this will change the status to green
+- ( git add . ) this will change the status to green
 - ( git commit -m"first commit" ) this will commit the changes
 - again check the status
 
