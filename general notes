@@ -1,5 +1,8 @@
 NOTES:
 
+0. Open visual studio code through terminal
+	type	code .
+
 1. what is the use of browser sync
 - browser sync allow us to sync directly to the browser, like if we update anything in the code then it will be directly uodated in the browser without loading the browser. 
 - what it does that it constantly have a server for us
@@ -41,6 +44,7 @@ Then save and exit!
 Step 3: sudo sysctl -p
 
 to check it
+
 
 
 
